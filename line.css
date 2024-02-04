@@ -1,0 +1,129 @@
+ .lineleft {
+    position: absolute;
+    top: 95px;
+    left: 75px;
+    width: 230.5px; /* Adjust the length of the line */
+    height: 3px;  /* Adjust the thickness of the line */
+    background-color: white; /* Adjust the color of the line */
+  }
+
+  .lineleft::before {
+    content: '';
+    position: absolute;
+    width: 20px; /* Adjust the diameter of the circle */
+    height: 20px;
+    background-color: white; /* Adjust the color of the circle */
+    border-radius: 50%;
+    left: -10px; /* Adjust the position of the circle */
+    top: 50%; /* Center the circle vertically */
+    transform: translateY(-50%);
+  }
+
+  .lineright {
+    position: absolute;
+    top: 95px;
+    left: 1250px;
+    width: 200px; /* Adjust the length of the line */
+    height: 3px;  /* Adjust the thickness of the line */
+    background-color: white; /* Adjust the color of the line */
+  }
+  
+  .lineright::before {
+    content: '';
+    position: absolute;
+    width: 20px; /* Adjust the diameter of the circle */
+    height: 20px;
+    background-color: white; /* Adjust the color of the circle */
+    border-radius: 50%;
+    left: 180px; /* Adjust the position of the circle */
+    top: 50%; /* Center the circle vertically */
+    transform: translateY(-50%);
+  }
+
+  .linebottom {
+    position: absolute;
+    top: 662px;
+    left: 72px;
+    width: 1175px; /* Adjust the length of the line */
+    height: 3px;  /* Adjust the thickness of the line */
+    background-color: white; /* Adjust the color of the line */
+  }
+  
+  .linebottom::before {
+    content: '';
+    position: absolute;
+    width: 20px; /* Adjust the diameter of the circle */
+    height: 20px;
+    background-color: white; /* Adjust the color of the circle */
+    border-radius: 50%;
+    left: -10px; /* Adjust the position of the circle */
+    top: 50%; /* Center the circle vertically */
+    transform: translateY(-50%);
+  }
+
+  .box {
+    background-color: #38B6FF;
+    color: black;
+  }
+
+  .boxlabel {
+    background-color: #38B6FF;
+    color: black;
+    font-size:40px;
+    font-style: italic;
+  }
+
+  .clickable-paragraph {
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .clickable-paragraph:hover {
+  cursor: pointer; /* Set cursor to pointer on hover */
+  border-color: #3498db; /* Change the border color on hover */
+}
+
+  .menu {
+  position: absolute;
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #e8e8e8; 
+  top: 50px;
+  left: 305.5px;
+  width: 1000px;
+}
+
+.textbot {
+  position: absolute;
+  top: 624px;
+  left: 1258px;
+  font-family: 'Space Mono', monospace ;
+  font-size: 25px;
+  color: white;
+  width: 200px;
+}
+
+  .name {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-family: 'League Spartan', sans-serif;
+    width: 800px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .text {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 600px;
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+  }
+
